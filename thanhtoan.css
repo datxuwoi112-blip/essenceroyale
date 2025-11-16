@@ -1,0 +1,116 @@
+.order-summary {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.order-summary th,
+.order-summary td {
+    border: 1px solid #e0b094;
+    padding: 10px;
+    text-align: left;
+}
+
+.order-summary th {
+    background-color: #8d6e63;
+    color: white;
+}
+
+.total-row td {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.form-table td {
+    padding: 15px;
+    border: 1px dashed #ccc;
+}
+
+.form-table label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-table input[type="text"],
+.form-table input[type="email"],
+.form-table textarea,
+.form-table select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkout-button-container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.checkout-button {
+    background-color: #5d4037;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkout-button:hover {
+    background-color: #3e2723;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.footer {
+    background-color: rgb(182, 69, 87);
+    color: black;
+    padding: 15px;
+}
+
+.nav-menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav-menu a.active {
+    background-color: #ffd5e5;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.header h1 {
+    font-size: 2.2em;
+    margin: 0;
+    /* padding-bottom: 5px; */
+    text-align: left;
+    font-weight: bold;
+    margin: 21.44px 0px;
+    font-size: 32px;
+}
+.main-content h3 {
+    text-align: left;
+    padding: 25px;
+}
